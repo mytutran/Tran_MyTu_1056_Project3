@@ -59,7 +59,7 @@ p, h2{
   justify-content: center;
 }
 
-#heroIMG {
+#heroIMGIndex {
   width: 1920px;
   height: 900px;
   background-color: #000;
@@ -169,12 +169,13 @@ p, h2{
 #aboutArea {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
-#heroIMG {
+#heroIMGAbout {
   background-color: #000;
   height: 1300px;
+  width: 1920px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
