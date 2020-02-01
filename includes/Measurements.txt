@@ -1,0 +1,19 @@
+Header Area: H 250px
+Nav Bar: H 100px
+Logo: W 300px H 250px
+
+Homepage:
+HeroBckgrd: W 1920px H 900px
+PromoText Top: W 1300px H 350px
+Button: W 250px H 80px
+ProductImg: W 850px H 950px
+ProductText: W 750px H 800px
+EventImg: W 850px H 800px
+EventText: W 800px H 800px
+EventHeadingContainer: W 1720px H 150px
+FooterText: W 1200px H 600px
+SocialMediaIcon: W: 500px H 100px
+
+ABOUT:
+HeroBckgrd: W 1920px H 1300px
+StoryText: W 1200px H 650px;
