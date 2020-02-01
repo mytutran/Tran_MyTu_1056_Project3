@@ -1,0 +1,196 @@
+@charset "UTF-8";
+.hidden {
+  display: none;
+}
+
+p, h2{
+  color: #fff;
+  font-size: 15px;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+
+/* ON HEADER */
+
+#logo {
+  background-color: #000;
+  width: 300px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+#mainNav {
+  background-color: #333;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#mainNav nav {
+  padding: 0;
+}
+
+#mainNav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0;
+}
+
+#mainNav ul li a {
+  display: block;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+/* ON BODY */
+
+#promoArea {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#heroIMGIndex {
+  width: 1920px;
+  height: 900px;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#promoText {
+  height: 350px;
+  width: 1300px;
+  background-color: #333;
+  margin-top: 50px;
+}
+
+.mainButton {
+  width: 250px;
+  height: 80px;
+  background-color: #F4D03F;
+  margin-top: 225px;
+}
+
+#productArea {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#productIMG {
+  width: 850px;
+  height: 950px;
+  background-color: #000;
+  margin-top: 150px;
+}
+
+#productText {
+  width: 750px;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #333;
+  margin-top: 300px;
+  margin-left: 60px;
+}
+
+#h2Event {
+  width: 1720px;
+  height: 150px;
+  background-color: #333;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#eventWrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 170px;
+}
+
+#eventText {
+  width: 800px;
+  height: 800px;
+  background-color: #333;
+  margin-right: 60px;
+}
+
+#eventIMG {
+  width: 850px;
+  height: 800px;
+  background-color: #000;
+}
+
+/* ON FOOTER*/
+#contactArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#footerText {
+  width: 1200px;
+  height: 600px;
+  background-color: #333;
+  margin-bottom: 50px;
+}
+
+#socialMedia {
+  width: 500px;
+  height: 100px;
+  background-color: #000;
+}
+
+/* ON ABOUT PAGE */
+#aboutArea {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#heroIMGAbout {
+  background-color: #000;
+  height: 1300px;
+  width: 1920px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+#storyWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#storyText {
+  background-color: #333;
+  width: 1200px;
+  height: 650px;
+}
